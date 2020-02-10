@@ -3,7 +3,7 @@ This repository contains additional material for the paper "MTA-KDD'19: A Datase
 
 ## Additional material
 The additional material for the paper can be found [here](ITASEC2020.pdf).
-It contains the results on all the datasets for the different WordNet-based similarity metrics considered.
+More details can be found [here](https://www.ivanletteri.it/2020/01/31/itasec2020/).
 
 ## Implementation
 
