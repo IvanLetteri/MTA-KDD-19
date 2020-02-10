@@ -58,8 +58,7 @@ If you use this work, please cite the following paper:
 I. Letteri, G.D. Penna, L.D. Vita, M.T. Grifa.
 "MTA-KDD'19: A Dataset for Malware Traffic Detection.",
 2020,
-Keywords: Sentiment analysis; Sentiment lexicon; Semantic similarity; Word embeddings
-
+Keywords: Malware analysis, Network Traffic, Machine Learning, Malware Detection
 ```
 @article{LETTERI2020,
 title = "MTA-KDD'19: A Dataset for Malware Traffic Detection",
