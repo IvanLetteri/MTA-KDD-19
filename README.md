@@ -60,16 +60,19 @@ I. Letteri, G.D. Penna, L.D. Vita, M.T. Grifa.
 2020,
 Keywords: Malware analysis, Network Traffic, Machine Learning, Malware Detection
 ```
-@article{LETTERI2020,
-title = "MTA-KDD'19: A Dataset for Malware Traffic Detection",
-journal = "---",
-volume = "---",
-pages = "__ - __",
-year = "2020",
-issn = "__-__",
-doi = "---",
-url = "---",
-author = "I. Letteri, G.D. Penna, L.D. Vita, M.T. Grifa.",
-keywords = "Malware analysis, Network Traffic, Machine Learning, Malware Detection",
+@inproceedings{itasec2020,
+  author    = {Ivan Letteri and Giuseppe {Della Penna} and Luca Di Vita and Maria Teresa Grifa},
+  editor    = {Michele Loreti and Luca Spalazzi},
+  title     = {MTA-KDD'19: {A} Dataset for Malware Traffic Detection},
+  booktitle = {Proceedings of the Fourth Italian Conference on Cyber Security, Ancona, Italy, February 4th to 7th, 2020},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {2597},
+  pages     = {153--165},
+  publisher = {CEUR-WS.org},
+  year      = {2020},
+  url       = {http://ceur-ws.org/Vol-2597/paper-14.pdf},
+  timestamp = {Mon, 27 Apr 2020 16:53:46 +0200},
+  biburl    = {https://dblp.org/rec/conf/itasec/LetteriPVG20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
