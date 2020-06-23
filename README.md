@@ -5,10 +5,6 @@ This repository contains additional material for the paper "MTA-KDD'19: A Datase
 The additional material for the paper can be found [here](ITASEC2020.pdf).
 More details can be found [here](https://www.ivanletteri.it/2020/01/31/itasec2020/).
 
-## Implementation
-
-The implementation of MTAKDD'19 will be share on googleColab to the url [gColab mtakdd19](https://toDefineWorkInProgress).
-
 ## Merging Malware and Legitimate classes
 
 ```python
