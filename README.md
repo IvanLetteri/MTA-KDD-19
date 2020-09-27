@@ -1,7 +1,8 @@
+## Daily Updated Optimized version of MTA-KDD dataset can be found [HERE](https://www.ivanletteri.it/optmtakdd/)
+You can read publication about Optimized MTA-KDD version [here](https://arxiv.org/abs/2009.11347) 
+
 # MTA-KDD'19
 This repository contains additional material for the paper "MTA-KDD'19: A Dataset for Malware Traffic Detection".
-
-## Daily Updated Optimized version of MTA-KDD dataset can be found [HERE](https://www.ivanletteri.it/optmtakdd/)
 
 ## Additional material
 The additional material for the paper can be found [here](ITASEC2020.pdf).
