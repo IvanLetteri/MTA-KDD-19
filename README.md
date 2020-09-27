@@ -1,9 +1,11 @@
 # MTA-KDD'19
 This repository contains additional material for the paper "MTA-KDD'19: A Dataset for Malware Traffic Detection".
 
+## Daily Updated Optimized version of MTA-KDD dataset can be found [here](https://www.ivanletteri.it/optmtakdd/)
+
 ## Additional material
 The additional material for the paper can be found [here](ITASEC2020.pdf).
-More details can be found [here](https://www.ivanletteri.it/2020/01/31/itasec2020/).
+More details about MTA-KDD'19 can be found [here](https://www.ivanletteri.it/2020/01/31/itasec2020/).
 
 ## Merging Malware and Legitimate classes
 
