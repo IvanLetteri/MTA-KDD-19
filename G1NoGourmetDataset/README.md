@@ -18,29 +18,29 @@ Samples percentage Legitimate : 27.87716955941255 % - tot. num. of Legitimate sa
 
 weight for all samples Silhouette based
 
-$w_i = \frac{(silh_{max} - silh_i)}{(silh_{max} - silh_{min})}$
+`$w_i = \frac{(silh_{max} - silh_i)}{(silh_{max} - silh_{min})}$`
 
 Sum of instance weights
 
-**wSUM** is  $\sum_i w_i$
+**wSUM** is  `$\sum_i w_i$`
 
-$S_i$ is the silhouette of sample $i$
+`$S_i$ is the silhouette of sample $i$`
 
-where [ProbWi] is $p_i = \frac{W_i}{\sum(W_i)}$
+where [ProbWi] is `$p_i = \frac{W_i}{\sum(W_i)}$`
 
 **Step 2.**
 
 Mean of instance weights for each features
 
-$$\mu_{f_i} = \frac{\sum s_i * w_i}{\sum w_i}$$
+`$\mu_{f_i} = \frac{\sum s_i * w_i}{\sum w_i}$`
 
 # **Variance**
 
 Part 1.
 
-$$\sigma^2 = ((s_i * w_i) - \mu_{f_i})^2$$
+`$\sigma^2 = ((s_i * w_i) - \mu_{f_i})^2$`
 
-where $s_i$ is a row of dataset (sample)
+where `$s_i$` is a row of dataset (sample)
 
 ```python
 df['WiSilhouette']=(df['silhouette'].max() - df['silhouette'])/(df['silhouette'].max() - df['silhouette'].min())
@@ -54,7 +54,7 @@ df["ProbWi"] = df["WiSilhouette"] / wSUM
 
 Part 2.
 
-$\sigma_i = \sqrt{((s_i * w_i)- \mu_i)^2}$
+`$\sigma_i = \sqrt{((s_i * w_i)- \mu_i)^2}$`
 
 #titles=['StartFlow','NumIPdst','NumCon','NumPorts','MinLenrx','FirstPktLen','TCPoverIP','MinLen','UDPoverIP','DNSoverIP','RstFlagDist']
 #titles = list(df.columns).remove('label','WiSilhouette','ProbWi') 
