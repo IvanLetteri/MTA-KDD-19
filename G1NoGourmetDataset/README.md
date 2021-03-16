@@ -32,13 +32,13 @@ where [ProbWi] is $p_i = \frac{W_i}{\sum(W_i)}$
 
 Mean of instance weights for each features
 
-$\mu_{f_i} = \frac{\sum s_i * w_i}{\sum w_i}$
+$$\mu_{f_i} = \frac{\sum s_i * w_i}{\sum w_i}$$
 
 # **Variance**
 
 Part 1.
 
-$\sigma^2 = ((s_i * w_i) - \mu_{f_i})^2$
+$$\sigma^2 = ((s_i * w_i) - \mu_{f_i})^2$$
 
 where $s_i$ is a row of dataset (sample)
 
